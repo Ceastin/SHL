@@ -10,8 +10,8 @@ A production-grade conversational recommender agent built on a stateless **FastA
 This is the easiest way to run the entire stack (including downloading the embeddings model and building search indexes).
 1. Clone the repository and navigate into it:
    ```bash
-   git clone https://github.com/MoAftaab/sharp-asta.git
-   cd sharp-asta
+   git clone https://github.com/ceastin/SHL.git
+   cd SHL
    ```
 2. Create a `.env` file from the template:
    ```bash
