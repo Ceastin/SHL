@@ -1,0 +1,62 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+tests/
+
+# Development scripts
+scripts/
+
+# Documentation
+README.md
+APPROACH.md
+
+# Docker Compose (not needed inside image)
+docker-compose.yml
+
+# Render deployment config
+render.yaml
+
+# Frontend dependencies (if added later)
+frontend/node_modules/
+frontend/.cache/
+frontend/dist/
+
+# Misc
+*.swp
+*.swo
